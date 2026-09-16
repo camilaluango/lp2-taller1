@@ -29,16 +29,15 @@ def cargar_productos():
     return productos
 
 def buscar_producto_por_sku(sku):
-    """Busca un producto por su SKU dentro de la lista de productos.
+    """Busca un producto por su SKU dentro de la lista de productos. """
+    
+productos = cargar_productos()
 
-    TODO 1: Obtener la lista de productos llamando a cargar_productos()
-    TODO 2: Recorrer la lista buscando el diccionario cuyo campo "sku"
-            sea igual al parámetro 'sku' recibido
-    TODO 3: Si lo encuentras, retornarlo
-    TODO 4: Si terminas de recorrer la lista y no lo encontraste,
-            retornar None
-    """
-    pass  # <-- reemplaza esta línea por tu implementación
+    for producto in productos:
+        if producto["sku"] == sku:
+            return producto
+
+    return None
 
 
 @main.route("/")
