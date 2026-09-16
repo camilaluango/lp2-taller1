@@ -21,16 +21,12 @@ RUTA_PRODUCTOS = os.path.join(os.path.dirname(__file__), "data", "productos.json
 
 
 def cargar_productos():
-    """Lee productos.json y retorna la lista de productos (lista de dicts).
+    """Lee productos.json y retorna la lista de productos (lista de dicts)."""
+  
+    with open(RUTA_PRODUCTOS,"r", encoding="utf-8") as archivo:
+        productos = json.load(archivo)
 
-    TODO 1: Abrir el archivo ubicado en RUTA_PRODUCTOS en modo lectura
-            (usa 'with open(...) as archivo:' y encoding="utf-8")
-    TODO 2: Usar json.load(archivo) para convertir el contenido en una
-            lista de diccionarios de Python
-    TODO 3: Retornar esa lista
-    """
-    pass  # <-- reemplaza esta línea por tu implementación
-
+    return productos
 
 def buscar_producto_por_sku(sku):
     """Busca un producto por su SKU dentro de la lista de productos.
