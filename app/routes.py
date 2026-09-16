@@ -31,7 +31,7 @@ def cargar_productos():
 def buscar_producto_por_sku(sku):
     """Busca un producto por su SKU dentro de la lista de productos. """
     
-productos = cargar_productos()
+    productos = cargar_productos()
 
     for producto in productos:
         if producto["sku"] == sku:
