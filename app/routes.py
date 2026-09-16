@@ -45,10 +45,7 @@ def index():
     """Página principal: muestra el catálogo completo de productos."""
     productos = cargar_productos()
 
-    # TODO: renderizar el template "index.html" pasándole la lista de
-    # productos con el nombre de variable que vayas a usar en el HTML
-    # Pista: return render_template("index.html", productos=productos)
-    pass
+    return render_template("index.html", productos=productos)
 
 
 @main.route("/producto/<sku>")
