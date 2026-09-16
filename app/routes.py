@@ -53,8 +53,7 @@ def detalle(sku):
     """Página de detalle de un producto específico, buscado por SKU."""
     producto = buscar_producto_por_sku(sku)
 
-    # TODO 1: Si 'producto' es None (no existe ese SKU), llama a
-    #         abort(404) para responder con un error "No encontrado"
-    # TODO 2: Si el producto existe, renderiza "detalle.html"
-    #         pasándole el producto encontrado
-    pass
+    if producto is None:
+        abort(404)
+
+    return render_template("detalle.html", producto=producto)
