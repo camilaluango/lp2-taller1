@@ -4,13 +4,63 @@
     "marca": "Logitech",
     "nombre": "Mouse inalámbrico MX Master",
     "precio": 349900,
-    "foto": "images/mouse-mx-master.jpg"
+    "foto": "images/mause.jpg"
   },
   {
     "sku": "TEC-002",
     "marca": "Kingston",
     "nombre": "Memoria USB 64GB",
     "precio": 39900,
-    "foto": "images/usb-kingston-64gb.jpg"
+    "foto": "images/memoria.jpg"
+  },
+  {
+    "sku": "TEC-003",
+    "marca": "Redragon",
+    "nombre": "Teclado mecánico",
+    "precio": 189900,
+    "foto": "images/teclado.jpg"
+  },
+  {
+    "sku": "TEC-004",
+    "marca": "Sony",
+    "nombre": "Audífonos inalámbricos",
+    "precio": 279900,
+    "foto": "images/audifonos.jpg"
+  },{
+    "sku": "TEC-005",
+    "marca": "LG",
+    "nombre": "Monitor LED 24 pulgadas",
+    "precio": 649900,
+    "foto": "images/monitor.jpg"
+  },{
+    "sku": "TEC-006",
+    "marca": "Logitech",
+    "nombre": "Cámara web Full HD",
+    "precio": 159900,
+    "foto": "images/camara.jpg"
+  },{
+    "sku": "TEC-007",
+    "marca": "Seagate",
+    "nombre": "Disco externo 1TB",
+    "precio": 299900,
+    "foto": "images/disco.png"
+  },{
+    "sku": "TEC-008",
+    "marca": "JBL",
+    "nombre": "Parlante Bluetooth",
+    "precio": 229900,
+    "foto": "images/parlante.jpg"
+  },{
+    "sku": "TEC-009",
+    "marca": "Samsung",
+    "nombre": "Cargador rápido USB-C",
+    "precio": 89900,
+    "foto": "images/cargador.jpg"
+  },{
+    "sku": "TEC-010",
+    "marca": "Trust",
+    "nombre": "Base refrigerante para portátil",
+    "precio": 119900,
+    "foto": "images/refrigerante.jpg"
   }
 ]
